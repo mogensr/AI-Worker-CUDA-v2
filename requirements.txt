@@ -1,8 +1,8 @@
-torch==2.3.1
-torchvision==0.18.1
-opencv-python
+torch==2.3.1+cu118 --index-url https://download.pytorch.org/whl/cu118
+torchvision==0.18.1+cu118 --index-url https://download.pytorch.org/whl/cu118
+numpy<2.0.0
+opencv-python-headless
 pillow
-numpy
 fastapi
 uvicorn
 python-multipart
