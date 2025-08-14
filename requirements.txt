@@ -8,3 +8,4 @@ uvicorn
 python-multipart
 huggingface_hub
 git+https://github.com/facebookresearch/segment-anything-2.git
+git+https://github.com/SHI-Labs/MatAnyone.git
